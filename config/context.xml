@@ -2,4 +2,6 @@
     <Resource accessToUnderlyingConnectionAllowed="true" driverClassName="org.h2.Driver" logAbandoned="true" name="jdbc/main" password="root" profile="DEV" removeAbandoned="false" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:h2:file:~/data;ALIAS_COLUMN_NAME=true;AUTO_SERVER=TRUE" username="root"/>
     <Profile value="DEV"/>
     <Profile value="PROD"/>
+    <Parameter name="crn.config.tokenRefreshUrl" value="https://app-8-212-10376.ide.cronapp.io/auth/refresh"/>
+    <Parameter name="crn.config.tokenAuthUrl" value="https://app-8-212-10376.ide.cronapp.io/auth"/>
 </Context>
